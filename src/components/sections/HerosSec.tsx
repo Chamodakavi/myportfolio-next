@@ -61,7 +61,12 @@ function HerosSec() {
               </AnimatePresence>
             </div>
 
-            <div className="relative flex items-center w-full">
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
+              className="relative flex items-center w-full"
+            >
               <div className="relative z-10"></div>
               <motion.div
                 className="line absolute right-10 md:right-20 top-1/2 h-[5px] bg-black -translate-y-1/2"
@@ -77,10 +82,15 @@ function HerosSec() {
               <div className="res-font ml-auto text-6xl md:text-8xl lg:text-[100px] font-light text-black z-10">
                 &amp;
               </div>
-            </div>
+            </motion.div>
           </div>
 
-          <div className="block absolute right-7 md:right-12 bottom-4 md:bottom-12 w-0 h-0 2xl:-right-40">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut", delay: 1 }}
+            className="block absolute right-7 md:right-12 bottom-4 md:bottom-12 w-0 h-0 2xl:-right-40"
+          >
             <Link
               href={"#hero-intro"}
               className="absolute bottom-0 left-0 rotate-270 origin-bottom-left text-sm font-bold tracking-widest uppercase flex items-center gap-2 cursor-pointer whitespace-nowrap"
@@ -93,7 +103,7 @@ function HerosSec() {
                 Scroll
               </span>
             </Link>
-          </div>
+          </motion.div>
         </div>
       </section>
     </>
