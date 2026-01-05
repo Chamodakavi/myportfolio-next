@@ -6,13 +6,13 @@ import { Instagram, Facebook, Dribbble } from "lucide-react";
 function Footer() {
   return (
     <footer className="w-full py-20 bg-[#d2d2d2]">
-      <div className="container mx-auto px-2">
+      <div className="container mx-auto px-10">
         {/* Top Row */}
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8 md:gap-12 pb-12 border-b border-gray-200">
           {/* Left - Logo & Text */}
           <div className="flex flex-col items-start gap-4">
             <div className="flex items-center gap-3">
-              <span className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-black to-gray-800 bg-clip-text text-transparent tracking-tight">
+              <span className="text-2xl md:text-4xl font-bold bg-gradient-to-r from-black to-gray-800 bg-clip-text text-transparent tracking-tight">
                 ChamodaHapuarachchi
               </span>
             </div>
@@ -22,7 +22,7 @@ function Footer() {
           </div>
 
           {/* Right - Say Hello Button */}
-          <button className="px-8 py-4 border-2 border-black text-lg md:text-xl font-medium tracking-wide uppercase hover:bg-black hover:text-white transition-all duration-300 whitespace-nowrap">
+          <button className="px-5 py-4 border-2 border-black text-md md:text-xl font-medium tracking-wide uppercase hover:bg-black hover:text-white transition-all duration-300 whitespace-nowrap">
             Say — Hello
           </button>
         </div>

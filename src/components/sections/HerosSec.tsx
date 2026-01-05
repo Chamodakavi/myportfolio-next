@@ -19,7 +19,7 @@ function HerosSec() {
   return (
     <>
       <section id="hero" className="pt-20 lg:pt-40">
-        <div className="container relative mx-auto px-4 h-[80vh] flex flex-col justify-center">
+        <div className="container relative mx-auto px-8 h-[80vh] flex flex-col justify-center">
           <motion.div
             initial={{ y: -100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -80,7 +80,7 @@ function HerosSec() {
             </div>
           </div>
 
-          <div className="block absolute right-4 md:right-12 bottom-4 md:bottom-12 w-0 h-0 2xl:-right-40">
+          <div className="block absolute right-7 md:right-12 bottom-4 md:bottom-12 w-0 h-0 2xl:-right-40">
             <Link
               href={"#hero-intro"}
               className="absolute bottom-0 left-0 rotate-270 origin-bottom-left text-sm font-bold tracking-widest uppercase flex items-center gap-2 cursor-pointer whitespace-nowrap"

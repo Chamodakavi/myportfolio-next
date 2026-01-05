@@ -14,9 +14,9 @@ function ProjectCard({
   description,
 }: ProjectCardProps) {
   return (
-    <div className=" bg-transparent">
+    <div className="my-8 bg-transparent">
       <img
-        className="w-full transition-transform duration-500 hover:scale-[1.1]"
+        className="transition-transform duration-500 hover:scale-[1.1]"
         src={image}
         alt="M1 radio project"
       />

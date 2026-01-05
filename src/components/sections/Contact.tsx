@@ -8,7 +8,7 @@ function ContactSection() {
       id="contact"
       className="bg-gray-200 py-16 px-8 font-sans text-gray-900"
     >
-      <div className="container px-4 mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div className="container px-10 mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
           <h2 className="text-4xl md:text-[65px] font-bold mb-12 leading-tight">
             For any enquiries,or just to say hello.
@@ -45,7 +45,7 @@ function ContactSection() {
               </a>
             </div>
           </div>
-          <div className="mt-6">
+          {/* <div className="mt-6">
             <p className="text-sm text-gray-500 uppercase tracking-wider mb-2">
               Linkedin
             </p>
@@ -55,7 +55,7 @@ function ContactSection() {
             >
               www.linkedin.com/in/chamodahapuarachchi03
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
