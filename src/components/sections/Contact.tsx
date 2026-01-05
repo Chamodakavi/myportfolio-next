@@ -8,10 +8,11 @@ function ContactSection() {
       id="contact"
       className="bg-gray-200 py-16 px-8 font-sans text-gray-900"
     >
-      <div className="container px-10 mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div className="container px-10 mx-auto gap-12 items-center">
         <div>
           <h2 className="text-4xl md:text-[65px] font-bold mb-12 leading-tight">
-            For any enquiries,or just to say hello.
+            For any enquiries,or just to <br />{" "}
+            <span className="text-brandFont">say hello.</span>
           </h2>
 
           <div className="flex flex-col gap-8">
@@ -39,7 +40,7 @@ function ContactSection() {
               </p>
               <a
                 href="chamodakavishka03@gmail.com"
-                className="block text-lg font-medium border-b-2 border-transparent hover:border-gray-900 transition-colors duration-300 pb-1"
+                className="block text-md sm:text-lg font-medium border-b-2 border-transparent hover:border-gray-900 transition-colors duration-300 pb-1"
               >
                 chamodakavishka03@gmail.com
               </a>
