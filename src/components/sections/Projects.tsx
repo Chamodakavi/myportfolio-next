@@ -3,52 +3,60 @@ import ProjectCard from "../ProjectCard";
 
 const projects = [
   {
-    id: 1,
+    id: 4,
     image: "/images/p-1.png",
     title: "A web application to discover and explore travel destinations",
-    techStack: "React.js Express.js MongoDB Material UI",
+    techStack: "React.js · Express.js · MongoDB · Material UI",
     description:
-      " provides detailed information, personalized itineraries, and real-time weather and air quality data.",
+      "A travel discovery platform that helps users explore destinations with personalized itineraries and real-time weather and air quality data. Built with secure authentication, data validation, and safe API key handling on the backend.",
+    liveDemo: "https://destination-checker-full-stack-x22i.vercel.app/",
   },
   {
     id: 2,
     image: "/images/p-2.png",
-    title: "A web application to discover and explore travel destinations",
-    techStack: "React.js Express.js MongoDB Material UI",
+    title:
+      "Car Wash Website - A web application for car wash shops to showcase their services and allow customers to book appointments online",
+    techStack: "React.js · MySQL · Bootstrap",
     description:
-      " provides detailed information, personalized itineraries, and real-time weather and air quality data.",
+      "A full-stack car wash and appointment booking system, with a React frontend and MySQL backend handling real-time reservation scheduling.",
+    liveDemo: "https://19-car-wash-bootstrap.vercel.app/",
   },
   {
     id: 3,
     image: "/images/p-3.png",
-    title: "A web application to discover and explore travel destinations",
-    techStack: "React.js Express.js MongoDB Material UI",
+    title:
+      "PerfumeApp - A web aplication for perfume lovers to discover and explore perfumes",
+    techStack: "Next.js · Chakra UI",
     description:
-      " provides detailed information, personalized itineraries, and real-time weather and air quality data.",
+      "A fragrance e-commerce site built around brand aesthetics and user retention, using Chakra UI to create an accessible, visually engaging design system.",
+    liveDemo: "https://perfume-app-ten.vercel.app/",
   },
   {
-    id: 4,
-    image: "/images/p-4.jpeg",
-    title: "A web application to discover and explore travel destinations",
-    techStack: "React.js Express.js MongoDB Material UI",
+    id: 1,
+    image: "/images/event-pl.png",
+    title: "Event Planner & Management Web Application",
+    techStack: "React.js Next.js Tailwind CSS",
     description:
-      " provides detailed information, personalized itineraries, and real-time weather and air quality data.",
+      "A full-featured event planning platform featuring event scheduling, vendor discovery, guest management, and custom booking workflows with a clean, modern interface.",
+    liveDemo: "https://event-planner-eta-roan.vercel.app/",
   },
   {
     id: 5,
     image: "/images/p-5.png",
-    title: "A web application to discover and explore travel destinations",
-    techStack: "React.js Express.js MongoDB Material UI",
+    title: "Furniro - Modern Furniture & Home Decor E-Commerce Platform",
+    techStack: "React.js Next.js Tailwind CSS",
     description:
-      " provides detailed information, personalized itineraries, and real-time weather and air quality data.",
+      "A full-featured e-commerce frontend showcasing furniture collections, product filtering and sorting, interactive cart management, and a clean, responsive interior design aesthetic.",
+    liveDemo: "https://furniro-blond.vercel.app/",
   },
   {
     id: 6,
     image: "/images/p-6.png",
-    title: "A web application to discover and explore travel destinations",
-    techStack: "React.js Express.js MongoDB Material UI",
+    title: "Modern Gym & Fitness Center Web Application",
+    techStack: "html · css · javascript",
     description:
-      " provides detailed information, personalized itineraries, and real-time weather and air quality data.",
+      "A responsive fitness platform featuring dynamic workout programs, membership pricing tiers, trainer profiles, and an interactive BMI calculator with smooth modern UI animations.",
+    liveDemo: "https://gym1-orcin-delta.vercel.app/",
   },
 ];
 
