@@ -32,9 +32,9 @@ function ProjectCard({
         />
       </a>
       <div className="py-4">
-        <h3 className="text-xl font-medium text-white leading-12">{title}</h3>
+        <h3 className="text-xl font-medium text-white leading-8">{title}</h3>
         <p className="my-1 text-sm text-gray-400">{techStack}</p>
-        <p className="leading-7">{description}</p>
+        <p className="leading-7  text-gray-400">{description}</p>
         <a
           href={liveDemo}
           className="italic text-md underline"
