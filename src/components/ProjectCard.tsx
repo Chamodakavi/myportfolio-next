@@ -35,6 +35,14 @@ function ProjectCard({
         <h3 className="text-xl font-medium text-white leading-12">{title}</h3>
         <p className="my-1 text-sm text-gray-400">{techStack}</p>
         <p className="leading-7">{description}</p>
+        <a
+          href={liveDemo}
+          className="italic text-md underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Live Demo
+        </a>
       </div>
     </motion.div>
   );
