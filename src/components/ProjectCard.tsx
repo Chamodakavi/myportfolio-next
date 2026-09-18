@@ -37,11 +37,26 @@ function ProjectCard({
         <p className="leading-7  text-gray-400">{description}</p>
         <a
           href={liveDemo}
-          className="italic text-md underline"
           target="_blank"
           rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 mt-4 px-4 py-2 rounded-full border border-white/20 bg-white/5 text-sm font-medium text-white hover:bg-white hover:text-black transition-all duration-300 group"
         >
-          Live Demo
+          <span>Live Demo</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+          >
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
         </a>
       </div>
     </motion.div>
