@@ -22,7 +22,7 @@ const HoverLink = ({ href, children, className = "" }: typeprop) => {
                   (child as React.ReactElement<any>).props.className || ""
                 }`.trim(),
               })
-            : child
+            : child,
         )}
         <motion.span
           variants={{
@@ -80,7 +80,7 @@ function Navbar() {
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="fixed top-5 w-full z-50 flex justify-between items-center px-6 py-6 md:px-12 bg-white/70 backdrop-blur-md shadow-md rounded-full"
+        className="fixed top-5 left-3 right-3 z-50 flex justify-between items-center px-6 py-6 md:px-12 bg-white/70 backdrop-blur-md shadow-md rounded-full"
       >
         <Link
           href="#home"
