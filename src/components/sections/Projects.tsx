@@ -75,6 +75,7 @@ function Projects() {
               image={project.image}
               techStack={project.techStack}
               description={project.description}
+              liveDemo={project.liveDemo}
             />
           ))}
         </div>
